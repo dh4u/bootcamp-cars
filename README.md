@@ -1,23 +1,48 @@
 # Cars
 
-![](/Images/cars.app.screenshot.png)
+![](/public/cars.app.screenshot.1.png)
+Adding a car | Bulk Editing Cars
+--- | --- 
+<img src="./public/cars.app.screenshot.2.png" alt="drawing" height="200"/> |<img src="./public/cars.app.screenshot.3.png" alt="drawing" height="200"/>
 
-This project was for the Full Stack Developer bootcamp I did and was for a lesson on Object-Oriented Programming.
+This project was for the Full Stack Developer bootcamp I did and was for a lesson on connecting a Node application to MongoDB.
 
 ## The assignment
 
-> * Create a file called ‘cars.html’. You are going to create a webpage for a car salesman. The page will display details about cars that are for sale. Create whatever HTML you deem appropriate for this task and style the page as you like. However, be sure that the information about the cars for sale are displayed on the webpage programmatically (see the next point) - not hard coded with HTML.
+> * Create a full stack web application in a project directory called “task 6”. Create the back-end of the application using Express and the front-end using React. You should create a mongoDB that stores information about cars in a collection called cars.
+> * Your application should allow one to:
+> > * Add a car to the cars collection.
+> > * Update information about a single car.
+> > * Update information about more than one car.
+> > * Delete a specific document.
+> > * List all the information for all cars in your database.
+> > * List model, make, registration number and current owner for all cars older than 5 years.
 >
-> * Create a file ‘cars.js’. Within cars.js:
-> > * Create 5 car objects using a constructor function.
-> > * Each car object should have the following properties: make, model, colour, image, registration number, price.
-> > * Each car object should also include a showMore() method. This method should display a dialogue that displays all the details about the specific car object. Hint: See more about dialog [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) .
-> > * Create a function that will be used to display the make, model and image of each car object in ‘cars.html’ when ‘cars.html’ is loaded.
-> * Whenever a user clicks on an image of a car, the showMore() method should be called and all the information about the car, including the registration number, price etc should be displayed.
+> * Ensure that for the back-end of your application you:
+> > * Install Mongoose.
+> > * Create 2 directories in your project directory called “models” and “controllers”.
+> > * Write all the code needed to perform the necessary CRUD operations for your application.
 
 <!-- ## Demo
 Update when hosted somewhere -->
 
-## Running the Code
+## Running the Code Locally
 
-[Clone / Download](https://github.com/dh4u/bootcamp-cars) the project to your computer and open cars.html in your browser.
+[Clone / Download](https://github.com/dh4u/bootcamp-cars.git) the project to your computer.
+
+### Start the code
+Open command prompt / terminal for the project folder and then you can run:
+
+#### `npm install`
+
+This will install the node dependencies.
+
+#### `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
+<br>
+
+***
+###### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
