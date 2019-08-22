@@ -1,6 +1,7 @@
 # Cars
 
 ![](/public/cars.app.screenshot.1.png)
+
 Adding a car | Bulk Editing Cars
 --- | --- 
 <img src="./public/cars.app.screenshot.2.png" alt="drawing" height="200"/> |<img src="./public/cars.app.screenshot.3.png" alt="drawing" height="200"/>
