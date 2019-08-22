@@ -5,7 +5,7 @@ Adding a car | Bulk Editing Cars
 --- | --- 
 <img src="./public/cars.app.screenshot.2.png" alt="drawing" height="200"/> |<img src="./public/cars.app.screenshot.3.png" alt="drawing" height="200"/>
 
-This project was for the Full Stack Developer bootcamp I did and was for a lesson on connecting a Node application to MongoDB.
+This project was for the Full Stack Developer bootcamp I did and was for a lesson on connecting a NodeJS application to MongoDB.
 
 ## The assignment
 
